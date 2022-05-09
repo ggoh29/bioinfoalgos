@@ -2,9 +2,9 @@ import math
 
 DNA = ['A', 'C', 'G', 'T']
 I = [[0, 1, 1, 1],
-		 [1, 0, 1, 1],
-		 [1, 1, 0, 1],
-		 [1, 1, 1, 0]]
+     [1, 0, 1, 1],
+     [1, 1, 0, 1],
+     [1, 1, 1, 0]]
 
 def smallparsimony(tree):
 	c = []
@@ -40,7 +40,7 @@ def smallparsimony(tree):
 
 
 tree = [[0],
-				[0, 0],
-				[0, 0, 0, 0],
-				['C', 'C', 'A', 'C', 'G', 'G', 'T', 'C']]
+	[0, 0],
+	[0, 0, 0, 0],
+	['C', 'C', 'A', 'C', 'G', 'G', 'T', 'C']]
 smallparsimony(tree)
